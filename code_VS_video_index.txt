@@ -1,0 +1,112 @@
+01. 尚硅谷_佟刚_JavaWEB_Tomcat 的安装和配置.wmv
+02. 尚硅谷_佟刚_JavaWEB_JavaWEB 开发的目录结构.wmv
+03. 尚硅谷_佟刚_JavaWEB_使用 Eclipse 开发 JavaWEB 项目.wmv
+
+*************** day_29 ***************************************
+*************** Servlet (unsure...) **************************
+04. 尚硅谷_佟刚_JavaWEB_第一个 Servlet 程序.wmv
+05. 尚硅谷_佟刚_JavaWEB_Servlet 的配置及生命周期方法.wmv
+06. 尚硅谷_佟刚_JavaWEB_ServletConfig 对象.wmv
+07. 尚硅谷_佟刚_JavaWEB_ServletContext.wmv
+08. 尚硅谷_佟刚_JavaWEB_HTTP 协议_GET&POST请求.wmv
+
+*************** day_30 ***************************************
+*************** Servlet, JSP (unsure...) *********************
+09. 尚硅谷_佟刚_JavaWEB_ServletRequest.wmv
+10. 尚硅谷_佟刚_JavaWEB_ServletResponse.wmv
+11. 尚硅谷_佟刚_JavaWEB_GenericServlet.wmv
+12. 尚硅谷_佟刚_JavaWEB_HttpServlet.wmv
+13. 尚硅谷_佟刚_JavaWEB_小结及练习.wmv
+14. 尚硅谷_佟刚_JavaWEB_JSP 概述.wmv
+15. 尚硅谷_佟刚_JavaWEB_JSP 页面的 9 个隐含对象.wmv
+16. 尚硅谷_佟刚_JavaWEB_JSP 语法.wmv
+17. 尚硅谷_佟刚_JavaWEB_域对象的属性操作.wmv
+18. 尚硅谷_佟刚_JavaWEB_请求的转发和重定向.wmv
+19. 尚硅谷_佟刚_JavaWEB_JSP 小结(1).wmv
+
+*************** day_31 ***************************************
+*************** page, include, JSTL, MVC *********************
+20. 尚硅谷_佟刚_JavaWEB_page指令.wmv
+21. 尚硅谷_佟刚_JavaWEB_include指令.wmv
+22. 尚硅谷_佟刚_JavaWEB_JSP 标签.wmv
+23. 尚硅谷_佟刚_JavaWEB_中文乱码问题.wmv
+24. 尚硅谷_佟刚_JavaWEB_JSP 小结(2).wmv
+25. 尚硅谷_佟刚_JavaWEB_MVC 设计模式.wmv
+26. 尚硅谷_佟刚_JavaWEB_MVC 案例之查询.wmv
+27. 尚硅谷_佟刚_JavaWEB_MVC 案例之删除.wmv
+28. 尚硅谷_佟刚_JavaWEB_MVC 案例之架构分析.wmv
+29. 尚硅谷_佟刚_JavaWEB_MVC 案例之DAO层设计.wmv
+30. 尚硅谷_佟刚_JavaWEB_MVC 案例之DAO层实现.wmv
+31. 尚硅谷_佟刚_JavaWEB_MVC 案例之多个请求对应一个 Servlet.wmv
+32. 尚硅谷_佟刚_JavaWEB_MVC 案例之(模糊)查询.wmv
+33. 尚硅谷_佟刚_JavaWEB_MVC 案例之删除操作.wmv
+34. 尚硅谷_佟刚_JavaWEB_MVC 案例之小结(1).wmv
+35. 尚硅谷_佟刚_JavaWEB_MVC 案例之新增 Customer.wmv
+36. 尚硅谷_佟刚_JavaWEB_MVC 案例之修改思路分析.wmv
+37. 尚硅谷_佟刚_JavaWEB_MVC 案例之修改代码实现.wmv
+38. 尚硅谷_佟刚_JavaWEB_MVC 案例之小结(2).wmv
+38. 尚硅谷_佟刚_JavaWEB_MVC 案例之通过配置切换底层存储源.wmv
+39. 尚硅谷_佟刚_JavaWEB_Cookie概述.wmv
+40. 尚硅谷_佟刚_JavaWEB_利用Cookie进行自动登录.wmv
+41. 尚硅谷_佟刚_JavaWEB_利用Cookie显示最近浏览的商品.wmv
+42. 尚硅谷_佟刚_JavaWEB_设置Cookie的作用路径.wmv
+43. 尚硅谷_佟刚_JavaWEB_Cookie小结.wmv
+44. 尚硅谷_佟刚_JavaWEB_HttpSession 概述.wmv
+45. 尚硅谷_佟刚_JavaWEB_HttpSession 的生命周期.wmv
+46. 尚硅谷_佟刚_JavaWEB_HttpSession 常用方法示例.wmv
+47. 尚硅谷_佟刚_JavaWEB_HttpSession URL重写.wmv
+48. 尚硅谷_佟刚_JavaWEB_HttpSession 小结(1).wmv
+49. 尚硅谷_佟刚_JavaWEB_HttpSession 之简易购物车.wmv
+50. 尚硅谷_佟刚_JavaWEB_JavaWEB中的相对路径和绝对路径.wmv
+51. 尚硅谷_佟刚_JavaWEB_HttpSession 之表单的重复提交.wmv
+52. 尚硅谷_佟刚_JavaWEB_HttpSession 之验证码.wmv
+53. 尚硅谷_佟刚_JavaWEB_HttpSession 小结(2).wmv
+54. 尚硅谷_佟刚_JavaWEB_使用 JavaBean.wmv
+55. 尚硅谷_佟刚_JavaWEB_EL语法.wmv
+56. 尚硅谷_佟刚_JavaWEB_EL详解.wmv
+57. 尚硅谷_佟刚_JavaWEB_简单标签的 HelloWorld.wmv
+58. 尚硅谷_佟刚_JavaWEB_带属性的自定义标签.wmv
+59. 尚硅谷_佟刚_JavaWEB_带标签体的自定义标签.wmv
+60. 尚硅谷_佟刚_JavaWEB_带父标签的自定义标签.wmv
+61. 尚硅谷_佟刚_JavaWEB_EL自定义函数.wmv
+62. 尚硅谷_佟刚_JavaWEB_简单标签小结.wmv
+63. 尚硅谷_佟刚_JavaWEB_JSTL_表达式操作.wmv
+64. 尚硅谷_佟刚_JavaWEB_JSTL_流程控制操作.wmv
+65. 尚硅谷_佟刚_JavaWEB_JSTL_迭代操作.wmv
+66. 尚硅谷_佟刚_JavaWEB_JSTL_URL操作.wmv
+67. 尚硅谷_佟刚_JavaWEB_JSTL_改写 MVC 案例.wmv
+68. 尚硅谷_佟刚_JavaWEB_Filter 概述.wmv
+69. 尚硅谷_佟刚_JavaWEB_创建 HttpFilter.wmv
+70. 尚硅谷_佟刚_JavaWEB_理解多个 Filter 代码的执行顺序.wmv
+71. 尚硅谷_佟刚_JavaWEB_配置 Filter 的 dispatcher 节点.wmv
+72. 尚硅谷_佟刚_JavaWEB_禁用浏览器缓存的过滤器.wmv
+73. 尚硅谷_佟刚_JavaWEB_字符编码过滤器.wmv
+74. 尚硅谷_佟刚_JavaWEB_检查用户是否登录的过滤器.wmv
+75. 尚硅谷_佟刚_JavaWEB_Filter小结(1).wmv
+76. 尚硅谷_佟刚_JavaWEB_权限管理思路分析.wmv
+77. 尚硅谷_佟刚_JavaWEB_权限管理代码实现.wmv
+78. 尚硅谷_佟刚_JavaWEB_权限过滤思路分析.wmv
+79. 尚硅谷_佟刚_JavaWEB_权限过滤代码实现.wmv
+80. 尚硅谷_佟刚_JavaWEB_HttpServletRequestWrapper.wmv
+81. 尚硅谷_佟刚_JavaWEB_Filter小结(2).wmv
+82. 尚硅谷_佟刚_JavaWEB_监听域对象创建和销毁的 Listener.wmv
+83. 尚硅谷_佟刚_JavaWEB_通过 Listener 理解域对象生命周期.wmv
+84. 尚硅谷_佟刚_JavaWEB_其它的 Servlet 监听器.wmv
+85. 尚硅谷_佟刚_JavaWEB_Servlet 监听器小结.wmv
+86. 尚硅谷_佟刚_JavaWEB_ 文件上传基础.wmv
+87. 尚硅谷_佟刚_JavaWEB_使用 fileupload 组件.wmv
+88. 尚硅谷_佟刚_JavaWEB_文件上传案例_需求.wmv
+89. 尚硅谷_佟刚_JavaWEB_文件上传案例_JS代码.wmv
+90. 尚硅谷_佟刚_JavaWEB_文件上传案例_约束的可配置性.wmv
+91. 尚硅谷_佟刚_JavaWEB_文件上传案例_总体步骤分析.wmv
+92. 尚硅谷_佟刚_JavaWEB_文件上传案例_构建 FileUploadBean 集合.wmv
+93. 尚硅谷_佟刚_JavaWEB_文件上传案例_完成文件的上传.wmv
+94. 尚硅谷_佟刚_JavaWEB_文件上传案例_复习.wmv
+95. 尚硅谷_佟刚_JavaWEB_文件上传案例_校验及小结.wmv
+96. 尚硅谷_佟刚_JavaWEB_文件下载.wmv
+97. 尚硅谷_佟刚_JavaWEB_国际化之Locale.wmv
+98. 尚硅谷_佟刚_JavaWEB_国际化之DateFormat.wmv
+99. 尚硅谷_佟刚_JavaWEB_国际化之NumberFormat.wmv
+100. 尚硅谷_佟刚_JavaWEB_国际化之MessageFormat.wmv
+101. 尚硅谷_佟刚_JavaWEB_国际化之ResourceBundle.wmv
+102. 尚硅谷_佟刚_JavaWEB_国际化之 fmt 标签及小结.wmv

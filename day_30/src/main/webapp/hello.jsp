@@ -24,7 +24,7 @@
     System.out.println("response instanceof HttpServletResponse: " + (response instanceof HttpServletResponse));
 
     ServletRequest servletRequest = pageContext.getRequest();
-    System.out.print("servletRequest == request: " + (servletRequest == request));
+    System.out.println("servletRequest == request: " + (servletRequest == request));
 
     System.out.println("session.getId(): " + session.getId());
 

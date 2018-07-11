@@ -56,7 +56,6 @@
 
     <servlet-mapping>
         <servlet-name>loginServlet</servlet-name>
-        <url-pattern>*.do</url-pattern>
         <!-- <url-pattern>/*.do</url-pattern> 这样写是非法的，如下才可以 -->
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>

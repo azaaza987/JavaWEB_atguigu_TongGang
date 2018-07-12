@@ -21,7 +21,7 @@ public class HelloServlet implements Servlet
 	</servlet>
 	
 	<servlet-mapping>
-		<!-- ĞèÒªºÍÄ³Ò»¸ö servlet ½ÚµãµÄ serlvet-name ×Ó½ÚµãµÄÎÄ±¾½ÚµãÒ»ÖÂ -->
+		<!-- ĞèÒªºÍÄ³Ò»¸ö servlet ½ÚµãµÄ servlet-name ×Ó½ÚµãµÄÎÄ±¾½ÚµãÒ»ÖÂ -->
 		<servlet-name>helloServlet</servlet-name>
 		<!-- Ó³Éä¾ßÌåµÄ·ÃÎÊÂ·¾¶: / ´ú±íµ±Ç° WEB Ó¦ÓÃµÄ¸ùÄ¿Â¼. -->
 		<url-pattern>/hello</url-pattern>
@@ -31,9 +31,9 @@ public class HelloServlet implements Servlet
 1). ¿ÉÒÔÀ´´´½¨ Servlet, ²¢µ÷ÓÃ Servlet µÄÏà¹ØÉúÃüÖÜÆÚ·½·¨. 
 2). JSP, Filter, Listener, Tag ...
 
-4. Servlet ÉúÃüÖÜÆÚµÄ·½·¨: ÒÔÏÂ·½·¨¶¼ÊÇÓÉ Serlvet ÈİÆ÷¸ºÔğµ÷ÓÃ. 
+4. Servlet ÉúÃüÖÜÆÚµÄ·½·¨: ÒÔÏÂ·½·¨¶¼ÊÇÓÉ Servlet ÈİÆ÷¸ºÔğµ÷ÓÃ. 
 1). ¹¹ÔìÆ÷: Ö»±»µ÷ÓÃÒ»´Î. Ö»ÓĞµÚÒ»´ÎÇëÇó Servlet Ê±, ´´½¨ Servlet µÄÊµÀı. µ÷ÓÃ¹¹ÔìÆ÷. 
-ÕâËµÃ÷ Serlvet µÄµ¥ÊµÀıµÄ!
+ÕâËµÃ÷ Servlet µÄµ¥ÊµÀıµÄ!
 2). init ·½·¨: Ö»±»µ÷ÓÃÒ»´Î. ÔÚ´´½¨ºÃÊµÀıºóÁ¢¼´±»µ÷ÓÃ. ÓÃÓÚ³õÊ¼»¯µ±Ç° Servlet. 
 3). service: ±»¶à´Îµ÷ÓÃ. Ã¿´ÎÇëÇó¶¼»áµ÷ÓÃ service ·½·¨. Êµ¼ÊÓÃÓÚÏìÓ¦ÇëÇóµÄ. 
 4). destroy: Ö»±»µ÷ÓÃÒ»´Î. ÔÚµ±Ç° Servlet ËùÔÚµÄ WEB Ó¦ÓÃ±»Ğ¶ÔØÇ°µ÷ÓÃ. ÓÃÓÚÊÍ·Åµ±Ç° Servlet ËùÕ¼ÓÃµÄ×ÊÔ´. 
@@ -50,10 +50,10 @@ public class HelloServlet implements Servlet
 		<load-on-startup>2</load-on-startup>
 	</servlet>
 	
-2). load-on-startup: ¿ÉÒÔÖ¸¶¨ Serlvet ±»´´½¨µÄÊ±»ú. ÈôÎª¸ºÊı, ÔòÔÚµÚÒ»´ÎÇëÇóÊ±±»´´½¨.ÈôÎª 0 »òÕıÊı, ÔòÔÚµ±Ç° WEB Ó¦ÓÃ±»
-Serlvet ÈİÆ÷¼ÓÔØÊ±´´½¨ÊµÀı, ÇÒÊı×éÔ½Ğ¡Ô½Ôç±»´´½¨. 
+2). load-on-startup: ¿ÉÒÔÖ¸¶¨ Servlet ±»´´½¨µÄÊ±»ú. ÈôÎª¸ºÊı, ÔòÔÚµÚÒ»´ÎÇëÇóÊ±±»´´½¨.ÈôÎª 0 »òÕıÊı, ÔòÔÚµ±Ç° WEB Ó¦ÓÃ±»
+Servlet ÈİÆ÷¼ÓÔØÊ±´´½¨ÊµÀı, ÇÒÊı×éÔ½Ğ¡Ô½Ôç±»´´½¨. 
 
-6. ¹ØÓÚ serlvet-mapping£º
+6. ¹ØÓÚ servlet-mapping£º
 
 1). Í¬Ò»¸öServlet¿ÉÒÔ±»Ó³Éäµ½¶à¸öURLÉÏ£¬¼´¶à¸ö <servlet-mapping> ÔªËØµÄ<servlet-name>×ÓÔªËØµÄÉèÖÃÖµ¿ÉÒÔÊÇÍ¬Ò»¸ö
 ServletµÄ×¢²áÃû¡£ 
@@ -80,15 +80,15 @@ OR
 	<url-pattern>/*.action</url-pattern>
 </servlet-mapping>
 
-7. ServletConfig: ·â×°ÁË Serlvet µÄÅäÖÃĞÅÏ¢, ²¢ÇÒ¿ÉÒÔ»ñÈ¡ ServletContext ¶ÔÏó
+7. ServletConfig: ·â×°ÁË Servlet µÄÅäÖÃĞÅÏ¢, ²¢ÇÒ¿ÉÒÔ»ñÈ¡ ServletContext ¶ÔÏó
 
-1). ÅäÖÃ Serlvet µÄ³õÊ¼»¯²ÎÊı
+1). ÅäÖÃ Servlet µÄ³õÊ¼»¯²ÎÊı
 
 	<servlet>
 		<servlet-name>helloServlet</servlet-name>
 		<servlet-class>com.atguigu.javaweb.HelloServlet</servlet-class>
 		
-		<!-- ÅäÖÃ Serlvet µÄ³õÊ¼»¯²ÎÊı¡£ ÇÒ½Úµã±ØĞëÔÚ load-on-startup ½ÚµãµÄÇ°Ãæ -->
+		<!-- ÅäÖÃ Servlet µÄ³õÊ¼»¯²ÎÊı¡£ ÇÒ½Úµã±ØĞëÔÚ load-on-startup ½ÚµãµÄÇ°Ãæ -->
 		<init-param>
 			<!-- ²ÎÊıÃû -->
 			<param-name>user</param-name>
@@ -120,20 +120,20 @@ OR
 		System.out.println("^^" + name + ": " + value);
 	}
 
-3). »ñÈ¡ Serlvet µÄÅäÖÃÃû³Æ(ÁË½â)
+3). »ñÈ¡ Servlet µÄÅäÖÃÃû³Æ(ÁË½â)
 
 8. ServletContext
 
-1). ¿ÉÒÔÓÉ  SerlvetConfig »ñÈ¡:
+1). ¿ÉÒÔÓÉ  ServletConfig »ñÈ¡:
 
 ServletContext servletContext = servletConfig.getServletContext();
 
 
-2). ¸Ã¶ÔÏó´ú±íµ±Ç° WEB Ó¦ÓÃ: ¿ÉÒÔÈÏÎª SerlvetContext ÊÇµ±Ç° WEB Ó¦ÓÃµÄÒ»¸ö´ó¹Ü¼Ò. ¿ÉÒÔ´ÓÖĞ»ñÈ¡µ½µ±Ç° WEB Ó¦ÓÃµÄ¸÷¸ö·½ÃæµÄĞÅÏ¢.
+2). ¸Ã¶ÔÏó´ú±íµ±Ç° WEB Ó¦ÓÃ: ¿ÉÒÔÈÏÎª ServletContext ÊÇµ±Ç° WEB Ó¦ÓÃµÄÒ»¸ö´ó¹Ü¼Ò. ¿ÉÒÔ´ÓÖĞ»ñÈ¡µ½µ±Ç° WEB Ó¦ÓÃµÄ¸÷¸ö·½ÃæµÄĞÅÏ¢.
 
 ¢Ù. »ñÈ¡µ±Ç° WEB Ó¦ÓÃµÄ³õÊ¼»¯²ÎÊı
 
-ÉèÖÃ³õÊ¼»¯²ÎÊı: ¿ÉÒÔÎªËùÓĞµÄ Servlet Ëù»ñÈ¡, ¶ø Servlet µÄ³õÊ¼»¯²ÎÊıÖ»ÓÃÄÇ¸ö Serlvet ¿ÉÒÔ»ñÈ¡. 
+ÉèÖÃ³õÊ¼»¯²ÎÊı: ¿ÉÒÔÎªËùÓĞµÄ Servlet Ëù»ñÈ¡, ¶ø Servlet µÄ³õÊ¼»¯²ÎÊıÖ»ÓÃÄÇ¸ö Servlet ¿ÉÒÔ»ñÈ¡. 
 
 <!-- ÅäÖÃµ±Ç° WEB Ó¦ÓÃµÄ³õÊ¼»¯²ÎÊı -->
 <context-param>
@@ -212,7 +212,7 @@ content-length: 43
 
 name=zhangsan&password=123              --ÇëÇóÌåÖĞ´«µİ²ÎÊı. 
 
-10. ÈçºÎÔÚ Serlvet ÖĞ»ñÈ¡ÇëÇóĞÅÏ¢:
+10. ÈçºÎÔÚ Servlet ÖĞ»ñÈ¡ÇëÇóĞÅÏ¢:
 
 1). Servlet µÄ service() ·½·¨ÓÃÓÚÓ¦´ğÇëÇó: ÒòÎªÃ¿´ÎÇëÇó¶¼»áµ÷ÓÃ service() ·½·¨
 
@@ -255,14 +255,14 @@ ServletResponse: ·â×°ÁËÏìÓ¦ĞÅÏ¢, Èç¹ûÏë¸øÓÃ»§Ê²Ã´ÏìÓ¦, ¾ßÌå¿ÉÒÔÊ¹ÓÃ¸Ã½Ó¿ÚµÄ·½·¨Ê
 	String queryString = httpServletRequest.getQueryString();
 	System.out.println(queryString); //user=atguigu&password=123456&interesting=game&interesting=party&interesting=shopping
 
-¢İ. »ñÈ¡ÇëÇóµÄ Serlvet µÄÓ³ÉäÂ·¾¶ 
+¢İ. »ñÈ¡ÇëÇóµÄ Servlet µÄÓ³ÉäÂ·¾¶ 
   
    String servletPath = httpServletRequest.getServletPath();
    System.out.println(servletPath);  //  /loginServlet
    
 ¢Ş. ºÍ attribute Ïà¹ØµÄ¼¸¸ö·½·¨: 	   
 
-3). HttpServletRequest: ÊÇ SerlvetRequest µÄ×Ó½Ó¿Ú. Õë¶ÔÓÚ HTTP ÇëÇóËù¶¨Òå. Àï±ß°üº¬ÁË´óÁ¿»ñÈ¡ HTTP ÇëÇóÏà¹ØµÄ·½·¨. 
+3). HttpServletRequest: ÊÇ ServletRequest µÄ×Ó½Ó¿Ú. Õë¶ÔÓÚ HTTP ÇëÇóËù¶¨Òå. Àï±ß°üº¬ÁË´óÁ¿»ñÈ¡ HTTP ÇëÇóÏà¹ØµÄ·½·¨. 
  
 4). ServletResponse: ·â×°ÁËÏìÓ¦ĞÅÏ¢, Èç¹ûÏë¸øÓÃ»§Ê²Ã´ÏìÓ¦, ¾ßÌå¿ÉÒÔÊ¹ÓÃ¸Ã½Ó¿ÚµÄ·½·¨ÊµÏÖ. 
 
